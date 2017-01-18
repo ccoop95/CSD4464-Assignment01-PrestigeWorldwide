@@ -47,4 +47,23 @@ public class CSD4464Assignment1PrestigeWorldwideTest {
         assertEquals(expResult, result);
     }
     
+    @Test
+    public void testLessThanOneShouldReturnNull(){
+        String testString = "";
+        int testInt = -1;
+        CSD4464Assignment1PrestigeWorldwide instance = new CSD4464Assignment1PrestigeWorldwide();
+        String expResult = null;
+        String result = instance.stringPower(testString, testInt);
+        assertEquals(expResult, result);
+    }
+    
+    @Test
+    public void testStringAndOneShouldReturnString(){
+        String testString = "Hello World";
+        int testInt = 1;
+        CSD4464Assignment1PrestigeWorldwide instance = new CSD4464Assignment1PrestigeWorldwide();
+        String expResult = "Hello World";
+        String result = instance.stringPower(testString, testInt);
+        assertEquals(expResult, result);
+    }
 }
