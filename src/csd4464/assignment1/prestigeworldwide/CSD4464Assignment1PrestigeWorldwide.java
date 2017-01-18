@@ -28,6 +28,12 @@ public class CSD4464Assignment1PrestigeWorldwide {
         } else if (num == 2 && string != null){
             String newString = string + string;
             return newString;
+        } else if (num > 1 && string != null){
+            String newString = string;
+            for (int i = 1; i < num; i++){
+                newString += string;
+            }
+            return newString;
         }
         return string;
     }
