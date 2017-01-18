@@ -25,6 +25,12 @@ public class CSD4464Assignment1PrestigeWorldwide {
             return null;
         } else if (num == 1 && string != null ){
             return string;
+        } else if (num > 1 && string != null){
+            String newString = string;
+            for (int i = 1; i < num; i++){
+                newString += string;
+            }
+            return newString;
         }
         return string;
     }
