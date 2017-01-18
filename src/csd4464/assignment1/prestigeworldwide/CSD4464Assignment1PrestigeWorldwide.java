@@ -19,6 +19,9 @@ public class CSD4464Assignment1PrestigeWorldwide {
     }
     //stringPower Classs
     public static String stringPower(String string, int num){
+        if (string == "") {
+            return string;
+        }
         return string;
     }
     
