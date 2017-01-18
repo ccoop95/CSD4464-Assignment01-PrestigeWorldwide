@@ -66,4 +66,13 @@ public class CSD4464Assignment1PrestigeWorldwideTest {
         String result = instance.stringPower(testString, testInt);
         assertEquals(expResult, result);
     }
+    @Test
+    public void testStringAndTwoShouldReturnStringDoubled(){
+        String testString = "bob";
+        int testInt = 2;
+        CSD4464Assignment1PrestigeWorldwide instance = new CSD4464Assignment1PrestigeWorldwide();
+        String expResult = "bobbob";
+        String result = instance.stringPower(testString, testInt);
+        assertEquals(expResult, result);
+    }
 }
