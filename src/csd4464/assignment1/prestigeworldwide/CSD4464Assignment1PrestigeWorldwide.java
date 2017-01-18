@@ -17,7 +17,7 @@ public class CSD4464Assignment1PrestigeWorldwide {
     public static void main(String[] args) {
         // TODO code application logic here
     }
-    
+    //stringPower Classs
     public static String stringPower(String string, int num){
         return string;
     }
