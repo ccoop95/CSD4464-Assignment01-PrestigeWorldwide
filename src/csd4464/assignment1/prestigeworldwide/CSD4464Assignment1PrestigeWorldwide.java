@@ -19,8 +19,10 @@ public class CSD4464Assignment1PrestigeWorldwide {
     }
     //stringPower Classs
     public static String stringPower(String string, int num){
-        if (string == "") {
+        if (string == "" && num > 0) {
             return string;
+        }else if (num < 1){
+            return null;
         }
         return string;
     }
