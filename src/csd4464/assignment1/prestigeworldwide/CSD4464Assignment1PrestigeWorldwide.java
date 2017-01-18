@@ -23,6 +23,8 @@ public class CSD4464Assignment1PrestigeWorldwide {
             return string;
         }else if (num < 1){
             return null;
+        } else if (num == 1 && string != null ){
+            return string;
         }
         return string;
     }
